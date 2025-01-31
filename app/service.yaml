@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: playground
   namespace: dev
-  lables:
+  labels:
     my_label: service-label
 spec:
   type: ClusterIP
