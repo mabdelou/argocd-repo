@@ -4,9 +4,9 @@ metadata:
   name: playground
   namespace: dev
 spec:
+  type: ClusterIP
   selector:
-    app: playground
+    my_label: playground-label
   ports:
   - port: 8888
     targetPort: 8888
-  type: ClusterIP
