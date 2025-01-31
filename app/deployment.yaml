@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: playground
   namespace: dev
-  lables:
+  labels:
     my_label: deployment-label
 spec:
   replicas: 1
