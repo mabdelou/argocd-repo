@@ -6,7 +6,7 @@ metadata:
   labels:
     my_label: deployment-label
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       my_label: playground-label
